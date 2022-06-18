@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Proyecto IOT</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <div class="container-sidebar">
+                <div class="div-titulo-integrantes">
+                    <ul>
+                        <li>
+                            <h1 id="inicio" onclick="inicio()">Mall Inteligente</h1>
+                        </li>
+                        <li>
+                            <div class="div-integrantes">
+                                <strong style="text-decoration: underline;">Grupo 12</strong>
+                                <strong>Rodrigo Aleman</strong>
+                                <strong>Nestor Pasos</strong>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="div-botones-variables">
+                    <span>
+                        <ul class="botones-variables">
+                            <li>
+                                <button type="button" id="btnTopologia" class="btnSidebar"
+                                    onclick="showTopologia()">Topologia</button>
+                            </li>
+                            <li>
+                                <button type="button" id="btnVariable1" class="btnSidebar"
+                                    onclick="showVariable(1)">Variable 1</button>
+                            </li>
+                            <li>
+                                <button type="button" id="btnVariable2" class="btnSidebar"
+                                    onclick="showVariable(2)">Variable 2</button>
+                            </li>
+                            <li>
+                                <button type="button" id="btnVariable3" class="btnSidebar"
+                                    onclick="showVariable(3)">Variable 3</button>
+                            </li>
+                            <li>
+                                <button type="button" id="btnVariable4" class="btnSidebar"
+                                    onclick="showVariable(4)">Variable 4</button>
+                            </li>
+                            <li>
+                                <button type="button" id="btnVariable5" class="btnSidebar"
+                                    onclick="showVariable(5)">Variable 5</button>
+                            </li>
+                        </ul>
+                    </span>
+                </div>
+                <div class="footer-sidebar">
+                    <div style="text-align: center;">
+                        Universidad Nacional<br>
+                        Facultad de Ciencias exactas y naturales<br>
+                        Escuela de Informática<br>
+                        Comunicaciones y redes de computadoras<br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-variables">
+            <h1 id="titulo_variable" style="display: none;"></h1>
+            <div id="main-container">
+            </div>
+        </div>
+
+        <div id="variable1" style="display: none;">
+            <h1>Detector del cliente</h1>
+        </div>
+
+        <div id="variable2" style="display: none;">
+            <h1>Identificador de tipo de negocio</h1>
+        </div>
+
+        <div id="variable3" style="display: none;">
+            <h1>Identificador de proveedor de servicios</h1>
+        </div>
+
+        <div id="variable4" style="display: none;">
+            <h1>Tipo de transporte</h1>
+        </div>
+
+        <div id="variable5" style="display: none;">
+            <h1>Identificador de Producto</h1>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

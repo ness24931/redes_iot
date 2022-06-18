@@ -1,0 +1,87 @@
+html,
+body {
+  background-color: midnightblue;
+}
+
+#inicio {
+  cursor: pointer;
+}
+
+.container-variables {
+  text-align: center;
+  height: 500px;
+  margin-left: 250px;
+  margin-top: 50px;
+  color: antiquewhite;
+}
+
+#main-container {
+  background-image: url("./Imagenes/foto_mall.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 500px;
+  /* margin-left: 250px; */
+  margin-top: 50px;
+}
+
+ul {
+  list-style: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  background-color: sandybrown;
+}
+
+.div-botones-variables {
+  height: 107px;
+  margin-top: 50px;
+}
+
+.btnSidebar {
+  margin-top: 25px;
+}
+
+button {
+  font-size: small;
+  font-weight: bold;
+  width: 120px;
+  height: 30px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  width: 121px;
+  height: 35px;
+}
+
+.div-integrantes > strong {
+  display: block;
+  font-size: larger;
+}
+
+#sidebar {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  background-color: sandybrown;
+}
+
+.footer-sidebar {
+  margin-left: 5px;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  font-size: small;
+}
+
+.container-sidebar {
+  text-align: center;
+}
