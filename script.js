@@ -1,6 +1,6 @@
 function showTopologia() {
     document.getElementById('titulo_variable').style.display = 'none';
-    document.getElementById('main-container').style.backgroundImage = "url(./Imagenes/topologia.jpg)";
+    document.getElementById('main-container').style.backgroundImage = "url(./Imagenes/Topologia_IOT.jpg)";
 }
 
 function inicio() {
